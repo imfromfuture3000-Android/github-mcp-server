@@ -3,7 +3,7 @@ ARG VERSION="dev"
 
 # Set the working directory
 WORKDIR /build
-
+ 
 # Install git
 RUN --mount=type=cache,target=/var/cache/apk \
     apk add git
